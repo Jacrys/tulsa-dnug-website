@@ -2,12 +2,14 @@
   [
     {
         "Id": 1,
+        "Photo": "",
         "FirstName": "Sean",
         "LastName": "W",
         "Title": "President"
     },
     {
         "Id" :  2,
+        "Photo" : "", 
         "FirstName": "Steve",
         "LastName": "Daily",
         "Title": "VicePresident"

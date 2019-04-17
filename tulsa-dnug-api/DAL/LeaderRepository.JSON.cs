@@ -51,7 +51,7 @@ namespace tulsa_dnug_website.api.DAL
 
         public Leader GetLeader(int Id)
         {
-            return GetLeaders().Where(m => m.Id == Id).FirstOrDefault();
+            return GetLeaders().FirstOrDefault(m => m.Id == Id);
         }
     }
 }
